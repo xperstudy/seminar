@@ -18,6 +18,7 @@ typescript 언어로 간단한 게임 소스에 테스트 없이 리팩토링을
   * 노트북 (2인 1대가 필요해서 없는 경우 실습을 진행하지 못 할 수 있습니다)
   * github 계정 (github codespace를 이용해서 간단한 실습을 진행합니다)
 * 오시는 길 : 서울 성동구 광나루로8길 31 성수SK V1센터 2동 7층
+  * http://kko.to/UpGo5xyl1G
 * 등록: 아래 구글 폼에 입금 후 등록 부탁드립니다.
   * https://docs.google.com/forms/d/e/1FAIpQLSch_Z-BD5lCkIxMZffEeNwqnP4kwJ8glXudfUsKG5qIXcxfDA/viewform
 * 문의사항: 아래 메일이나 전화로 관련 문의를 할 수 있습니다. 
