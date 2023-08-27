@@ -6,10 +6,6 @@
 2. [github.com](http://github.com) 에 로그인 합니다.
 3. 주소창에 [https://github.com/xperstudy/five-lines](https://github.com/xperstudy/five-lines) 을 입력합니다.
 
-### 동영상 (자막)
-
-[https://www.youtube.com/watch?v=4l18Q1LqG6k](https://www.youtube.com/watch?v=4l18Q1LqG6k)
-
 ## 1. codespace 생성
 
 1~3분 소요 됩니다.
@@ -67,3 +63,7 @@ game page
 ![edit code](6-select-source-file.png)
 
 edit code
+
+## 동영상 (자막)
+[https://www.youtube.com/watch?v=4l18Q1LqG6k](https://www.youtube.com/watch?v=4l18Q1LqG6k)
+
