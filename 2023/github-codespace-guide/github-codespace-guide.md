@@ -14,13 +14,13 @@
 
 1~3분 소요 됩니다.
 
-![codespace](github-codespace-guide/1-create.png)
+![codespace](1-create.png)
 
 codespace
 
 ## 2. terminal 창 열기
 
-![terminal](github-codespace-guide/2-select-terminal-tab.png)
+![terminal](2-select-terminal-tab.png)
 
 terminal
 
@@ -38,7 +38,7 @@ npx tsc -w
 
 ### 터미널 창을 하나 더 열어서 python 웹 서버를 실행합니다.
 
-![new terminal](github-codespace-guide/3-new-terminal.png)
+![new terminal](3-new-terminal.png)
 
 new terminal
 
@@ -50,13 +50,13 @@ python -m http.server
 
 [포트 탭]을 통해서도 동일한 동작을 할 수 있습니다.
 
-![open web page](github-codespace-guide/4-open-in-browser.png)
+![open web page](4-open-in-browser.png)
 
 open web page
 
 ### 새 창이 열리면서 결과물을 확인할 수 있습니다. (WASD 로 조작합니다.)
 
-![game page](github-codespace-guide/5-preview.png)
+![game page](5-preview.png)
 
 game page
 
@@ -64,6 +64,6 @@ game page
 
 코드 수정 후 결과물을 확인하려면, 반드시 브라우저를 리프레시 해주세요.
 
-![edit code](github-codespace-guide/6-select-source-file.png)
+![edit code](6-select-source-file.png)
 
 edit code
