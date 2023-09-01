@@ -1,0 +1,5 @@
+
+MYOPTS="--profile=xper"
+
+aws ${MYOPTS} lightsail get-instances | jq '.instances[] | .name + ", " + .publicIpAddress' | sort
+

@@ -1,0 +1,5 @@
+FROM openjdk:8
+RUN apt-get update && apt-get install -y maven
+COPY . /project
+RUN cd /project && mvn package
+ENTRYPOINT ["java","-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005", "-Djava.security.egd=file:/dev/./urandom","-jar","/project/target/springbootapp2-1.0.jar"]

@@ -1,0 +1,12 @@
+FROM openjdk:8u212-jdk
+RUN mkdir -p /app
+COPY target/demoapp1-1.0.jar /app
+WORKDIR /app
+
+#COPY docker/entrypoint.sh /usr/local/bin/
+#RUN ln -s usr/local/bin/entrypoint.sh /entrypoint.sh # backwards compat
+#ENTRYPOINT ["entrypoint.sh"]
+
+EXPOSE 8888 5005
+
+CMD ["java","-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005","-Djava.security.egd=file:/dev/./urandom","-jar","/app/demoapp1-1.0.jar"]
